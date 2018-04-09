@@ -322,7 +322,7 @@
                 <a href="https://studio.coding.net" class="logo">Cloud Studio</a>
                 <ul class="nav">
                     <li>
-                        <a href="/intro">产品介绍</a>
+                        <a href="https://studio.coding.net/intro" target="_blank" rel="noopener noreferrer">产品介绍</a>
                     </li>
                     <li>
                         <a href="https://coding.net/help/doc/webide" target="_blank" rel="noopener noreferrer">帮助</a>
