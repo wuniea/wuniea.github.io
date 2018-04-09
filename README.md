@@ -13,7 +13,7 @@
 
 如果需要使用 Python 3 可以直接使用 `python3`
 
-在终端中输入 `python3 snack.py` 可以开始玩贪吃蛇的小游戏
+在终端中输入 `python3 snake.py` 可以开始玩贪吃蛇的小游戏
 
 如果想要使用 pip3 请运行：
 
