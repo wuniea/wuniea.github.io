@@ -11,7 +11,8 @@ import org.springframework.ui.ModelMap;
 public class StudioDemoApplication {
     @RequestMapping("/")  
     public String greeting(ModelMap map) {  
-        // return "Hello World!";  
+        String jreVersion = System.getProperty("java.specification.version");
+        map.addAttribute("jreVersion", jreVersion);
         return "index";
     } 
 
