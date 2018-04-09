@@ -12,7 +12,7 @@ public class StudioDemoApplication {
     @RequestMapping("/")  
     public String greeting(ModelMap map) {  
         String jreVersion = System.getProperty("java.specification.version");
-        map.addAttribute("jreVersion", jreVersion);
+        map.addAttribute("jreVersion", "v" + jreVersion);
         return "index";
     } 
 
