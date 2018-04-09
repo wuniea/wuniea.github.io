@@ -382,7 +382,7 @@
                             <a href="https://coding.net/security" target="_blank" rel="noopener noreferrer">安全策略</a>
                         </p>
                         <p>
-                            <a href="/index">© 2017 Coding.net</a>
+                            <a href="https://coding.net/index">© 2017 Coding.net</a>
                             <!-- react-text: 76 -->
                             |
                             <!-- /react-text -->
