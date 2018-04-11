@@ -5,17 +5,23 @@
 我们为您准备了三种语言的小示例来展现 Cloud Studio 的功能。分别是 Java， PHP 和 Python。
 
 ## Python Demo
+### Python2 Demo
+Python 目录下有可以获取当前时间与 IP 的代码，我们以此为例展示 python2 的使用。
 
-请先在终端中输入 `cd python` 切换到 python 目录
+1. 请先在终端中输入 `cd python` 切换到 python 目录。
 
-默认的环境中自带 Python 2.7.12 版本，
-直接在下方终端中输入 `python hello.py` 查看运行效果吧。
+2. 直接在下方终端中输入 `python hello.py` 查看运行效果吧。
 
-如果需要使用 Python 3 可以直接使用 `python3`
+### Python3 Demo
 
-在终端中输入 `python3 snake.py` 可以开始玩贪吃蛇的小游戏
+Python 目录下有贪吃蛇小游戏的代码，我们以此为例展示 python3 的使用。
 
-如果想要使用 pip3 请运行：
+1. 请先在终端中输入 `cd python` 切换到 python 目录，已在该目录下的请忽略。
+
+2. 在终端中输入 `python3 snake.py` 开始玩贪吃蛇小游戏吧。
+
+
+_注：如果想要使用 pip3 请运行：_
 
 ```
 sudo apt-get update
@@ -26,23 +32,29 @@ pip3 --version
 
 ## Java Demo
 
-在 java 目录中，我们准备了一个 spring boot 的 demo。
+Java 目录下有一个 spring boot 的 demo 代码，我们以此为例展示 java 环境的使用。
 
-切换到 java 目录，运行 `mvn package`，
-等待编译完成之后，运行 `java -jar target/studio-demo-0.0.1-SNAPSHOT.jar`，
-就可以启动服务。
+1. 请先在终端中输入 `cd java` 切换到 java 目录。
 
-也可以直接 `mvn spring-boot:run` 启动服务。
+2. 直接运行 `mvn spring-boot:run` 启动服务。
+
+3. 完全启动之后，在右边的【访问链接】侧边栏中点击 8080 端口号旁边的加号，就可以生成一个访问链接，
+点击访问链接，就可以看到我们的示例页面了。
+
 
 ![图片](https://dn-coding-net-production-pp.qbox.me/62177c52-3f04-45f4-9f46-260e47efdcdb.jpeg)
 
-完全启动之后，在右边的访问连接侧边栏中点击 8080 端口号旁边的加号，就可以生成一个访问连接，
-点击访问连接，就可以看到我们的事例页面了。
 
 ## PHP Demo
 
-在 php 目录下，运行 `php -S 0.0.0.0:8081` 可以启动 PHP 内置的 web server。
-同样在右侧访问连接侧栏中将端口号改为 8081 并点击旁边的加号，生成 8081 端口的访问连接，点击就可以打开事例页面了。
+PHP 目录下有一个示例代码，我们以此为例展示 PHP 环境的使用。
+
+1. 请先在终端中输入 `cd php` 切换到 php 目录。
+
+2. 运行 `php -S 0.0.0.0:8081` 启动 PHP 内置的 web server。
+
+3. 启动之后，在右边的【访问链接】侧边栏中将端口号改为 8081 并点击旁边的【+】
+，生成 8081 端口的访问连接，点击就可以打开示例页面了。
 
 ## 其他语言支持
 
