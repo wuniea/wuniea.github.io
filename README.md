@@ -30,6 +30,20 @@ sudo python3 -m pip install --upgrade pip
 pip3 --version
 ```
 
+## PHP Demo
+
+PHP 目录下有一个示例代码，我们以此为例展示 PHP 环境的使用。
+
+1. 请先在终端中输入 `cd php` 切换到 php 目录。
+
+2. 运行 `php -S 0.0.0.0:8080` 启动 PHP 内置的 web server。
+
+3. 启动之后，在右边的【访问链接】侧边栏中点击 8080 端口号旁边的加号，就可以生成一个访问链接，
+点击访问链接，就可以看到我们的示例页面了。
+
+![图片](https://dn-coding-net-production-pp.qbox.me/62177c52-3f04-45f4-9f46-260e47efdcdb.jpeg)
+
+
 ## Java Demo
 
 Java 目录下有一个 spring boot 的 demo 代码，我们以此为例展示 java 环境的使用。
@@ -38,23 +52,9 @@ Java 目录下有一个 spring boot 的 demo 代码，我们以此为例展示 j
 
 2. 直接运行 `mvn spring-boot:run` 启动服务。(第一次运行时需要下载依赖，可能会花较长时间，请耐心等待)
 
-3. 完全启动之后，在右边的【访问链接】侧边栏中点击 8080 端口号旁边的加号，就可以生成一个访问链接，
-点击访问链接，就可以看到我们的示例页面了。
-
-
-![图片](https://dn-coding-net-production-pp.qbox.me/62177c52-3f04-45f4-9f46-260e47efdcdb.jpeg)
-
-
-## PHP Demo
-
-PHP 目录下有一个示例代码，我们以此为例展示 PHP 环境的使用。
-
-1. 请先在终端中输入 `cd php` 切换到 php 目录。
-
-2. 运行 `php -S 0.0.0.0:8081` 启动 PHP 内置的 web server。
-
-3. 启动之后，在右边的【访问链接】侧边栏中将端口号改为 8081 并点击旁边的【+】
+3. 完全启动之后，在右边的【访问链接】侧边栏中将端口号改为 8081 并点击旁边的【+】
 ，生成 8081 端口的访问连接，点击就可以打开示例页面了。
+
 
 ## 其他语言支持
 
