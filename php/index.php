@@ -341,7 +341,7 @@
         </div>
         <div class="tcloud-coupon">
             <h2>领券免费使用 Cloud Studio</h2>
-            <p>绑定腾讯云账号即可领取一百元腾讯云代金券，足够 Cloud Studio 使用一年。</p>
+            <p>绑定腾讯云账号即可领取一百元腾讯云代金券，足够 Cloud Studio 使用 6 个月。</p>
             <a href="https://dnspod.cloud.tencent.com/act/coding">领取腾讯云优惠券</a>
         </div>
         <div class="full-wide">
